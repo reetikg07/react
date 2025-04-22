@@ -1,3 +1,78 @@
-#heading{
-    color: red;
+.header {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid black;
+}
+.heading {
+  font-size: xx-large;
+  color: orangered;
+  -webkit-text-stroke: 2px red;
+}
+.login-btn {
+  padding: 0 20px;
+  cursor: pointer;
+}
+.logo-item {
+  width: 150px;
+  height: 150px;
+}
+
+.nav-items > ul {
+  display: flex;
+  font-size: large;
+
+  list-style-type: none;
+}
+.nav-items > ul > li {
+  padding: 10px;
+  margin: 10px;
+}
+
+.search {
+  padding: 10px;
+}
+.res-card {
+  border: 2px solid #000;
+  width: 200px;
+  border-radius: 10px;
+  padding: 5px;
+  background-color: antiquewhite;
+  margin: 5px;
+  overflow: hidden;
+  word-wrap: break-word;
+}
+.res-card-logo {
+  width: 100%;
+  height: 140px;
+  border: 2px solid #000;
+  border-radius: 3px;
+}
+.res-card:hover {
+  border: 2px solid salmon;
+  cursor: pointer;
+}
+
+.res-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* or space-between */
+  gap: 20px;
+  max-width: 100%;
+  padding: 20px;
+  border-radius: 3px;
+  background-color: whitesmoke;
+}
+.shimmer-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.shimmer-card {
+  margin: 20px;
+  width: 200px;
+  height: 400px;
+  background-color: beige;
+}
+
+.search {
+  display: flex;
 }

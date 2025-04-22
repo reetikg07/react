@@ -1,0 +1,87 @@
+.header {
+  border: 1px solid #000;
+  justify-content: space-between;
+  display: flex;
+}
+
+.heading {
+  color: #ff4500;
+  -webkit-text-stroke: 2px red;
+  font-size: xx-large;
+}
+
+.login-btn {
+  cursor: pointer;
+  padding: 0 20px;
+}
+
+.logo-item {
+  width: 150px;
+  height: 150px;
+}
+
+.nav-items > ul {
+  font-size: large;
+  list-style-type: none;
+  display: flex;
+}
+
+.nav-items > ul > li {
+  margin: 10px;
+  padding: 10px;
+}
+
+.search {
+  padding: 10px;
+}
+
+.res-card {
+  word-wrap: break-word;
+  background-color: #faebd7;
+  border: 2px solid #000;
+  border-radius: 10px;
+  width: 200px;
+  margin: 5px;
+  padding: 5px;
+  overflow: hidden;
+}
+
+.res-card-logo {
+  border: 2px solid #000;
+  border-radius: 3px;
+  width: 100%;
+  height: 140px;
+}
+
+.res-card:hover {
+  cursor: pointer;
+  border: 2px solid salmon;
+}
+
+.res-container {
+  background-color: #f5f5f5;
+  border-radius: 3px;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  max-width: 100%;
+  padding: 20px;
+  display: flex;
+}
+
+.shimmer-container {
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.shimmer-card {
+  background-color: beige;
+  width: 200px;
+  height: 400px;
+  margin: 20px;
+}
+
+.search {
+  display: flex;
+}
+/*# sourceMappingURL=react.3a01df49.css.map */
